@@ -1,15 +1,6 @@
 body{
     /* block-size: 4225.09px; */
     box-sizing: border-box;
-    /* height: 4225.09px;
-    inline-size: 857px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    margin-inline-end: 0px;
-    margin-inline-start: 0px; */
-    /* perspective-origin: 428.5px 2112.55px; */
-    /* transform-origin: 428.5px 2112.55px; */
-    /* width: 857px; */
     font: 16px / 24px Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -26,8 +17,6 @@ body{
 
 
 /* Navbar section  */
-
-
 @media screen and (min-width: 100px){
 #NAV-bg{
     background-color: white;
@@ -47,14 +36,16 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .DIV_1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     /* margin-left: 100px; */
 }
 
@@ -62,27 +53,41 @@ body{
     max-width: 100%;
     font-size: 13px;
     margin: 13px;
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .UL_0{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;   
+    /* align-items: center;    */
+    /* justify-content: ; */
     list-style-type:none;
+    /* text-align: center; */
+    /* margin-right: 80px; */
+    
 }
 
 
 .UL_1 > li{
     font-size: 13px;
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: 13px;
+    /*margin-left: auto;
+    margin-right: auto; */
 }
 
 
 .DIV_3{
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: auto;
+    /* margin-right: 100px; */
+    /* position: relative;
+    top: 50px;
+    left: 0px;
+    transform: translate(20%, -50%); */
 }
 
 .UL_1{
@@ -90,6 +95,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
 }
 
 }
@@ -99,18 +106,17 @@ body{
 @media screen and (min-width: 768px){}
 @media screen and (min-width: 992px){}
 @media screen and (min-width: 1200px){
+
 #NAV-bg{
     background-color: white;
     border-bottom: 1px solid #D4D4D4;
     line-height: 8px;
 }
 
-
 #Logo-img{
     height: 68px;
     width: 130px;
 }
-
 
 
 .DIV_0{
@@ -153,10 +159,83 @@ body{
     list-style-type:none;
     display: flex;
 }
+
 }
 
 
 /* Navbar section  */
+
+
+
+
+
+ /* Hero section  */
+
+
+@media screen and (min-width: 100px){
+    #IMG_011 {
+        width: 100%;
+        height: 250px;
+    }
+    #DIV_2212{
+        position: relative;
+        top: -50px;
+    }
+    #DIV_2213{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #DIV_2214{
+        position: relative;
+        top: -20px;
+    }
+    #IMG_2213{
+        height: 100px;
+    }
+    #H3_2210{
+        font-size: 28px;
+        font-weight: unset;
+        text-align: center;
+        line-height: 2.5rem;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #DIV_2216{
+        margin-top: 0px;
+        max-width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #DIV_2217{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #BUTTON_2217{
+        background-color: #255F82;
+        color: white;
+        border-radius: 5px;
+        padding: 15px;
+        border: 0px;
+        font-size: 18px;
+        font-weight:bold;
+    }
+}
+
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){}
+
+
+
+ /* END Hero section  */
+
+
 
 
 
@@ -282,25 +361,48 @@ body{
     #SECTION_156{
         background-color: white;
     }
+    #DIV_1601{
+        padding-left: 25px;
+    }
     #H5_160{
         text-align: center;
         padding-top: 40px;
+        font-weight: bold;
     }
 
     #DIV_161{
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 
-    #DIV_162{
+    #DIV_162, #DIV_174{
         display: flex;
         flex-wrap: wrap;
+        align-items: flex-start;
+        line-height: 2.5rem;
         /* justify-content: space-evenly; */
     }
-    #DIV_163{
-        font-size: 35px;
+    #DIV_163,#DIV_175{
+        font-size: 32px;
     }
 
-    #BUTTON_167{
+    #BUTTON_167,#BUTTON_179{
+        border:none;
+        border-bottom: 1px solid rgb(2, 118, 177);
+        padding-bottom: 7px;
+        background-color: unset !important;
+        font-size: 15px !important;
+        font-weight: unset !important;
+        padding-left: 0px !important;
+        display: block;
+        padding: 0px 30px 0px 10px;
+    }
+
+    #BUTTON_179{
+        padding-left: 0;
+    }
+
+    /* #BUTTON_167,#BUTTON_179{
     align-items: normal;
     appearance: none;
     block-size: 46.3906px;
@@ -341,11 +443,11 @@ body{
     border-left: 0px none rgb(2, 118, 177);
     font: 800 32px / 46.4px Optimist, Arial, Helvetica, sans-serif;
     outline: rgb(2, 118, 177) none 0px;
-    padding: 0px 30px 0px 10px;
-    }
+    padding: 0px 30px 0px 10px;  
+    }*/
 
-    #SPAN_168{
-        border-block-end-color: rgba(0, 0, 0, 0);
+    #SPAN_168,#SPAN_180{
+    border-block-end-color: rgba(0, 0, 0, 0);
     border-block-end-style: solid;
     border-block-end-width: 1px;
     border-block-start-color: rgba(0, 0, 0, 0);
@@ -368,9 +470,106 @@ body{
     text-emphasis-color: rgb(2, 118, 177);
     transform-origin: 0px 0px;
     border: 1px solid rgba(0, 0, 0, 0);
-    font: 800 32px / 46.4px Optimist, Arial, Helvetica, sans-serif;
+    font: 700 29px / 46.4px Optimist, Arial, Helvetica, sans-serif;
     outline: rgb(2, 118, 177) none 0px;
+    /* width: 100px; */
+    /* font-weight: unset; */
     }
+
+    #DIV_174 {
+    /* block-size: 56px;
+    border-block-end-color: rgb(20, 20, 20);
+    border-block-start-color: rgb(20, 20, 20);
+    border-inline-end-color: rgb(20, 20, 20);
+    border-inline-start-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    caret-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+    column-rule-color: rgb(20, 20, 20);
+    display: flex;
+    height: 56px;
+    inline-size: 793px;
+    justify-content: center;
+    perspective-origin: 396.5px 28px;
+    text-align: center;
+    text-decoration: none solid rgb(20, 20, 20);
+    text-emphasis-color: rgb(20, 20, 20);
+    transform-origin: 396.5px 28px;
+    width: 793px;
+    border: 0px none rgb(20, 20, 20);
+    font: 300 32px / 56px Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(20, 20, 20) none 0px; */
+}
+
+#DIV_190{
+    /* block-size: 48px;
+    border-block-end-color: rgb(20, 20, 20);
+    border-block-start-color: rgb(20, 20, 20);
+    border-inline-end-color: rgb(20, 20, 20);
+    border-inline-start-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    caret-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+    column-rule-color: rgb(20, 20, 20);
+    height: 48px;
+    inline-size: 793px;
+    perspective-origin: 396.5px 24px;
+    text-align: center;
+    text-decoration: none solid rgb(20, 20, 20);
+    text-emphasis-color: rgb(20, 20, 20);
+    transform-origin: 396.5px 24px;
+    width: 793px;
+    border: 0px none rgb(20, 20, 20);
+    font: 16px / 24px Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(20, 20, 20) none 0px; */
+}
+
+#BUTTON_191{
+    margin-top: 40px !important;
+    margin-bottom: 50px;
+    appearance: none;
+    block-size: 48px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-end-style: none;
+    border-block-end-width: 0px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-block-start-style: none;
+    border-block-start-width: 0px;
+    border-end-end-radius: 4px;
+    border-end-start-radius: 4px;
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-end-style: none;
+    border-inline-end-width: 0px;
+    border-inline-start-color: rgb(255, 255, 255);
+    border-inline-start-style: none;
+    border-inline-start-width: 0px;
+    border-start-end-radius: 4px;
+    border-start-start-radius: 4px;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    inline-size: 176.891px;
+    min-inline-size: 88px;
+    min-width: 88px;
+    padding-block-end: 0px;
+    padding-block-start: 0px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    perspective-origin: 88.4375px 24px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 88.4453px 24px;
+    white-space: nowrap;
+    width: 176.891px;
+    background: rgb(2, 118, 177) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 4px;
+    font: 20px / 48px Optimist, Arial, Helvetica, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 16px;
+}
 }
 @media screen and (min-width: 576px){}
 @media screen and (min-width: 768px){}
@@ -1181,7 +1380,7 @@ input[type='checkbox'] {
 /* footer  */
 @media screen and (min-width: 100px){
     #DIV_741{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     background-color: #3D3D3D;
     margin-bottom: 0px;
     padding-left: 25px;
@@ -1190,27 +1389,14 @@ input[type='checkbox'] {
 }
 
 #BUTTON_743,#BUTTON_864,#BUTTON_889,#BUTTON_902,#BUTTON_017{
-    block-size: 56px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-end-style: none;
-    border-block-end-width: 0px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-block-start-style: none;
-    border-block-start-width: 0px;
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-end-style: none;
-    border-inline-end-width: 0px;
-    border-inline-start-color: rgb(255, 255, 255);
-    border-inline-start-style: none;
-    border-inline-start-width: 0px;
     bottom: 0px;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
     cursor: pointer;
     display: block;
-    height: 56px;
-    inline-size: 761px;
+    /* height: 56px; */
+    /* inline-size: 761px; */
     inset-block-end: 0px;
     inset-block-start: 0px;
     inset-inline-end: 0px;
@@ -1227,8 +1413,8 @@ input[type='checkbox'] {
     text-decoration: none solid rgb(255, 255, 255);
     text-emphasis-color: rgb(255, 255, 255);
     top: 0px;
-    transform-origin: 380.5px 28px;
-    width: 761px;
+    /* transform-origin: 380.5px 28px; */
+    /* width: 761px; */
     background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
     font: 600 16px / 24px Optimist, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1724,7 +1910,7 @@ input[type='checkbox'] {
     text-decoration: none solid rgb(105, 105, 105);
     text-emphasis-color: rgb(105, 105, 105);
     /* transform-origin: 34.9141px 9px; */
-    vertical-align: middle;
+    /* vertical-align: middle; */
     /* width: 69.8281px; */
     border-top: 0px none rgb(105, 105, 105);
     border-right: 0px none rgb(105, 105, 105);
